@@ -1,0 +1,221 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(45deg,#f3eb05, #ff7b00, #f3eb05, #ff7b00);
+}
+
+/*#4e90bc;*/
+
+nav {
+    background-color: inherit;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-top: 22.5px;
+    padding-bottom: 31px;
+    border-width: 2px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    padding: 10px 25px 10px 25px;
+    border: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: inherit;
+    border-radius: 50px;
+    transition-duration: 300ms;
+    margin: 30px;
+    margin-left: 80px;
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+    background-color: inherit;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px 4px;
+    font-size: 18px;
+}
+
+.navbar a.active {
+    background-color: inherit;
+    color: black;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px 8px;
+    font-size: 19px;
+}
+
+h1, h3, p, a {
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+p {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+hr {
+    border-style: solid;
+    color: rgb(0, 0, 0);
+    border-width: 1px;
+}
+
+li {
+    font-size: 22px;
+}
+
+.link-p:hover {
+    color: black;
+    font-size: 24px;
+}
+
+/*AG-LOGOS*/
+    .aglogo-index {
+        max-width: 300px;
+        opacity: 100%;
+        transition-duration: 500ms;
+        margin-top: 135px;
+    }
+
+    .aglogo-index:hover {
+        opacity: 50%;
+        max-width: 295px;
+    }
+
+    .aglogo {
+        max-width: 300px;
+        opacity: 100%;
+        transition: opacity 500ms;
+        transition: max-width 500ms;
+    }
+
+    .aglogo:hover {
+        opacity: 50%;
+        max-width: 295px;
+    }
+
+    .aglogo-me {
+        max-width: 300px;
+        opacity: 100%;
+        margin-top: 17px;
+        margin-bottom: 13px;
+        transition: opacity 500ms;
+        transition: max-width 500ms;
+    }
+
+    .aglogo-me:hover {
+        opacity: 50%;
+        max-width: 295px;
+    }
+    .aglogo-doc {
+        max-width: 300px;
+        opacity: 100%;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        transition: opacity 500ms;
+        transition: max-width 500ms;
+    }
+
+    .aglogo-doc:hover {
+        opacity: 50%;
+        max-width: 295px;
+    }
+/*AG-LOGOS*/
+
+
+li a {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    transition-duration: 300ms;
+}
+
+li:hover a {
+    font-size: 24px;
+}
+
+.sportspicture img {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    border-width: 3px;
+    margin-top: 20px;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    margin: 50px;
+}
+
+.sportspicture img:hover {
+    border-radius: 0%;
+    transform: rotate(360deg);
+}
+
+.container-left {
+    margin-left: 155px;
+    height: 350px;
+    width: 300px;
+    border-style: solid;
+    border-width: 3px;
+    transition-duration: 500ms;
+}
+
+.container-center {
+    height: 350px;
+    width: 300px;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition-duration: 500ms;
+}
+
+.container-right {
+    height: 350px;
+    width: 300px;
+    border-style: solid;
+    border-width: 3px;
+    transition-duration: 500ms;
+}
+
+.container-left:hover {
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+.container-center:hover {
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+.container-right:hover {
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+.container-text {
+    margin: 48px;
+}
+
+.container-p {
+    font-weight: bold;
+}
+
+.container-left, .container-center, .container-right {
+    float: left;
+}
